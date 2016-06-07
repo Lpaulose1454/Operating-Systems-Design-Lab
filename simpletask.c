@@ -7,7 +7,7 @@ void TaskCounter(void)
 {
 while(count >0)
 { 
- printf("Counting downwards: %u", count); 
+ printf("Counting  is downwards: %u", count); 
 count--;
 }
 }
