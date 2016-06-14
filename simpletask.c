@@ -25,7 +25,7 @@ void TaskCounter(void)
 if(counter!=0)               // checks whether counter value 
                              // not equal to zero
 { 
- printf("The counter is %d\n",(unsigned int) count); 
+ printf("The counter is %d\n",(unsigned int) counter); 
 counter--;                   // decrements the counter
 }
 }
@@ -54,5 +54,5 @@ if(rc)
 else
 counter=value;                // add number to the counter value
   }
-ADD_CMD("count",CmdCount," Counting downwards");
+ADD_CMD("counter",CmdCount," Counting downwards");
 
